@@ -417,9 +417,9 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             if (score <= 15) return '您';
             return '人？';
         } else {
-            if (score <= 49) return '试着好好练一下？';
-            if (score <= 99) return 'TCL';
-            if (score <= 149) return 'TQL';
+            if (score <= 49) return '何老师很生气';
+            if (score <= 99) return '呦西';
+            if (score <= 149) return 'Nice';
             if (score <= 199) return '您';
             return '人？';
         }
